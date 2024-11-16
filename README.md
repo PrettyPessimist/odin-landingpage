@@ -1,0 +1,1 @@
+This project is an Odin Project concerning an example of a landing page style webpage. This is my attempt at building said landing page and using everthing I've learned about flexbox from the previous flexbox lessons in The Foundations course provided for by The Odin Project. 

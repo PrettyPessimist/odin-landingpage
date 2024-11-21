@@ -6,7 +6,7 @@
 
 .header {
     background-color: #1F2937;
-    font-family: "Roboto";
+    font-family: 'Roboto','Times New Roman', Times, serif;
     font-size: 24px;
     color: #F9FAF8;
 
@@ -26,6 +26,60 @@
 .header li {
     font-size:18px;
     color:#E5E7EB;
+}
+
+.box1 {
+    background-color: #1F2937;
+    font-family: 'Roboto','Times New Roman', Times, serif;
+    padding: 100px 135px 100px 215px;
+}
+
+.start-info {
+    display: flex;
+    min-height: 240px;
+    flex-basis: 1000px;
+    flex-shrink: 0;
+    border: 5px solid red;
+}
+
+.hero-info {
+    flex:1;
+    display: flex;
+    flex-flow: column wrap;
+    padding:0 5px;
+    gap: 10px;
+}
+
+.hero-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.hero-subtext {
+    font-size:18px;
+    color:#E5E7EB;
+}
+
+btn {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 900;
+    background-color:green;
+    padding:7px 35px;;
+    border-radius: 10px;
+    flex-shrink: 0;
+    align-self: flex-start;
+}
+
+.hero-image {
+    flex:1;
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
 }
 
 ul {

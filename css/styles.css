@@ -36,7 +36,6 @@
     flex-basis: 1000px;
     flex-shrink: 0;
 }
-
 .hero-info {
     flex:1;
     display: flex;
@@ -53,17 +52,6 @@
     font-size:18px;
     color:#E5E7EB;
 }
-btn {
-    color: #F9FAF8;
-    font-size: 18px;
-    font-weight: 900;
-    background-color:green;
-    padding:7px 35px;;
-    border-radius: 10px;
-    flex-shrink: 0;
-    align-self: flex-start;
-}
-
 .hero-image {
     flex:1;
     overflow: hidden;
@@ -92,7 +80,6 @@ btn {
 .curriculum-title em {
     font-size: 24px;
 }
-
 .book-box {
     display: flex;
     min-height: 235px;
@@ -101,7 +88,6 @@ btn {
 
     justify-content: space-between;
 }
-
 .info-imagebox {
     display: flex;
     flex-flow: column nowrap;
@@ -113,10 +99,28 @@ btn {
     color: rgb(128, 126, 126);
 }
 
+.box3 {
+    background-color:#E5E7EB;
+    padding: 135px 220px 175px 320px;
+    margin-top: 20px;
+}
 
+.quote-text,
+.quote-author {
+    display: flex;
+    align-items: center;
+}
 
+.quote-text {
+    font-size: 36px;
+    font-style:italic;
+}
 
-
+.quote-author {
+    color:#1F2937;
+    font-size: 30px;
+    justify-content: flex-end;
+}
 
 
 
@@ -128,4 +132,14 @@ ul {
     display: flex;
     align-items: center;
     gap:16px;
+}
+btn {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 900;
+    background-color:green;
+    padding:7px 35px;;
+    border-radius: 10px;
+    flex-shrink: 0;
+    align-self: flex-start;
 }
